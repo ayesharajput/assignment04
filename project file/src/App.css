@@ -1,0 +1,189 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+
+nav {
+  background-color: #f9f9f9;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  color: royalblue;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* ===============hero section================== */
+.hero-section {
+  background-image: url("https://storage.needpix.com/rsynced_images/sea-1547609_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+}
+.hero_btn {
+  padding: 10px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  border-radius: 5px;
+}
+/*============= Card section styles=========== */
+.card-section {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px ;
+  
+}
+
+.card {
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.card i {
+  font-size: 48px;
+  color: #333;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+/* Image and Text Section styles */
+.image-text-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px  ;
+}
+
+.image-text-section img {
+  max-width: 50%;
+}
+
+.image-text-section .text {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.image-text-section h2 {
+  color: #333;
+}
+
+.image-text-section p {
+  color: #666;
+}
+/* ========================Testimonial Section styles============================== */
+.testimonial-section {
+  background-color: #f9f9f9;
+  padding: 30px 10px;
+  margin: auto;
+  text-align: center;
+}
+.cardFlex {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.testimonial-card {
+  max-width: 300px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  padding: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 20px;
+}
+
+.testimonial-card img {
+  border-radius: 50%;
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+  color: #333;
+}
+
+.testimonial-card p {
+  color: #666;
+}
+/* ======================Footer================================== */
+footer {
+  background-color: #f9f9f9;
+  color: royalblue;
+  padding: 20px;
+ 
+  
+}
+footer p {
+  text-align: flex-start;
+  margin-left: 100px;
+  color: #666;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-icons a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-Links{
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
